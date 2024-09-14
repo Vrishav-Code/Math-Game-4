@@ -1,0 +1,26 @@
+body {
+    background-image: url("controller.jpg");
+    background-size: cover;
+}
+h1 {
+    color: aliceblue;
+}
+
+#login_body {
+    background-color: black;
+    height: 500px;
+    width: 700px;
+    color: aliceblue;
+}
+#IMG {
+    float: left;
+}
+
+.inp {
+    height: 50px;
+    width: 200px;
+}
+.input {
+    flex-direction: column;
+    gap: 10px; 
+}

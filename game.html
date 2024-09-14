@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Math Game</title>
+        <link rel="stylesheet" href="game.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h4 id="name1"></h4><span id="pl1_score"></span>
+        <h4 id="name2"></h4><span id="pl2_score"></span>
+<div class="container">
+    <center>
+        <button id="heading" class="btn btn-danger">Math Game!</button>
+        <h1 id="questioner"></h1>
+        <h1 id="answerer"></h1>
+        <div id="output"></div>
+        <h2>Number 1</h2>
+        <div class="input-container"></div>
+            <input class="inp" id="num1" type="number" placeholder="Number 1">
+            <br><br>
+            <h2>Number 2</h2>
+            <input class="inp" id="num2" type="number" placeholder="Number 2">
+            <br><br>
+            <button onclick="send()">Send Numbers to formulate question?</button>
+            </div>
+            
+    </center>
+</div>
+    </body>
+    <script src="game.js"></script>
+</html> 
